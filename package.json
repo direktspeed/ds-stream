@@ -1,0 +1,24 @@
+{
+  "name": "dspeed-kefir",
+  "version": "1.0.1",
+  "description": "Adds some comune functionality for our Applications to Famouse Kefir lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/direktspeed/kefir-extra.git"
+  },
+  "author": "",
+  "license": "(MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/direktspeed/kefir-extra/issues"
+  },
+  "homepage": "https://github.com/direktspeed/kefir-extra#readme",
+  "dependencies": {
+    "kefir": "^3.7.1",
+    "kefir-bus": "git+https://github.com/direktspeed/kefir-bus.git",
+    "kefir-node-stream": "git+https://github.com/direktspeed/kefir-node-stream.git"
+  }
+}
